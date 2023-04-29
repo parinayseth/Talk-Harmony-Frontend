@@ -1,0 +1,74 @@
+.card{
+    background-color: rgb(156, 229, 255);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 1% 0;
+    box-shadow: 4px 4px 6px 5px rgba(0, 0, 0, 0.2);
+}
+.cardo{
+    display: flex;
+    margin: 5px 10px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.timing{
+    margin:0 40px;
+    display: flex;
+    align-items: center;
+}
+.card-description{
+    display:flex;
+    justify-content: space-between;
+    padding:5px 0px;
+}
+.post-container{
+    max-height:150px; 
+    display: flex;
+    /* width:% */
+    /* margin:2% 0; */
+    padding:2% 4%;
+    margin-left: 50px ;
+    margin-right: 30px;
+    background-color: white;
+    border-radius:10px;
+    justify-content: left;
+}
+.post-container p{
+    border: none;
+    /* margin-left:10px;
+    margin-top:10px; */
+    margin:5px 20px;
+    /* height:120px; */
+    width:100%;
+    text-align: justify;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    
+}
+.card-description .dp{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background-image: url("../pages/Dashboard/Card1.png");
+    background-size: cover;
+}
+.sharing{
+    display: flex;
+    margin-left:50px;
+    justify-content: left;
+    align-items: center;
+}
+.sharing-obj{
+    margin:0 5px;
+    font-size: 1.5rem;
+}
+.sharing textarea{
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 0.8rem;
+    height:23px;
+    width:20vw;
+
+}
