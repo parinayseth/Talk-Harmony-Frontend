@@ -44,12 +44,12 @@
   }
   @media screen and (max-width:800px) {
     .right-nac button{
-      font-size: 16px;
-      padding: 1px 2px;
-      /* width:0px; */
+      font-size: 12px;
+      padding: 1px 1px;
+      width:60px;
     }
     .left-nac{
-      font-size: 25px;
+      font-size: 20px;
     }
     .left-nac img{
       height: 25px;

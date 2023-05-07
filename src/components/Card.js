@@ -29,7 +29,7 @@ const Card = ({props}) => {
             <GrShareOption className="sharing-obj" />
             <FiTrash2 className="sharing-obj"/>
         </div>
-    </div>
+    </div>  
   )
 }
 

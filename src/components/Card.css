@@ -2,7 +2,7 @@
     background-color: rgb(156, 229, 255);
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 1% 0;
+    margin: 2% 0;
     box-shadow: 4px 4px 6px 5px rgba(0, 0, 0, 0.2);
 }
 .cardo{
@@ -38,7 +38,7 @@
     background-color: white;
     border-radius:10px;
     justify-content: left;
-}
+} 
 .post-container p{
     border: none;
     /* margin-left:10px; 
@@ -77,6 +77,16 @@
     margin-bottom:10px;
     font-size: 0.8rem;
     height:23px;
-    width:20vw;
+    /* width:20vw; */
 
+}
+
+@media screen and (max-width:800px) {
+    .post-container {
+        margin-left:10px;
+        margin-right:10px;
+    }
+    .sharing{
+        margin-left:2.5%;
+    }
 }

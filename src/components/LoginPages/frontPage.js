@@ -13,7 +13,7 @@ export default function FrontPage() {
     <div className="front-page">
       {<Navbar/>}
       <div className="front-main-container">
-        <div className="fpage-left">
+        <div className="fpage-left"> 
          <img src={sideImage} alt=""/>
         </div>
         
