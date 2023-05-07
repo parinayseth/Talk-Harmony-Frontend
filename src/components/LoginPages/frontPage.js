@@ -14,7 +14,8 @@ export default function FrontPage() {
       {<Navbar/>}
       <div className="front-main-container">
         <div className="fpage-left">
-      </div>
+         <img src={sideImage} alt=""/>
+        </div>
         
 
         <div className="fpage-right">
@@ -72,7 +73,7 @@ export default function FrontPage() {
               <img src={sideImage1} alt=""/>
             </div>
           </div>
-        </div>
+        </div> 
       
       
         {<Footer/>}

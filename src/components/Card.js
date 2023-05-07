@@ -16,8 +16,8 @@ const Card = ({props}) => {
                 </div>
             </div>
             <div className="timing">
-                <p>{props.date}</p>
-            </div>
+                {props.date}
+            </div>  
         </div>
         <div className="post-container">
             <p>{props.description}</p>

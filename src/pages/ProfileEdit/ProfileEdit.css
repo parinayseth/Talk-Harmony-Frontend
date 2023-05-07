@@ -13,7 +13,7 @@
 .profile-container{
     display: flex;
     flex-direction:row;
-    border:2px solid black;
+    /* border:2px solid black; */
     justify-content: space-evenly;
     align-items: center;
     width:1000px;
@@ -52,6 +52,7 @@
     margin:40px 0;
 }
 .set-edit{
+
     width:200px;
     font-size :20px;
     border:1px solid black;
@@ -83,8 +84,26 @@
     margin:50px 0;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:800px) {
     .profile-container{
         flex-direction:column-reverse;
+        width:100%;
+    }
+    .profile-img{
+        width:150px;
+        height:150px;
+    }
+    .profile-left-o table{
+        /* border-collapse:separate; */
+        border-spacing: 40px 10px;
+    }
+    .profile-left-o td,.profile-left-o th{
+        font-size: small;
+    }
+    .profile-edit-button button{
+        padding:2px 30px;
+    }
+    .profile-edit-button{
+        margin:20px 0;
     }
 }
